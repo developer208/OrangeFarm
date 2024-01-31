@@ -4,7 +4,7 @@ import Graph from "./Graph";
 export default function Rows() {
   return (
     <main className="2xl:w-[540px] w-full h-[400px] flex flex-col items-start self-stretch gap-4 ">
-      <div className=" w-[90vw] sm:w-full h-[256px] flex flex-col items-start self-stretch p-[24px] gap-2 bg-[#FFF] rounded-[16px] ">
+      <div className=" w-[92vw] sm:w-full h-[256px] flex flex-col items-start self-stretch p-[24px] gap-2 bg-[#FFF] rounded-[16px] ">
         <Graph />
       </div>
       <div className="2xl:w-[540px] w-[540px]  sm:w-full  h-[128px] flex items-start self-stretch gap-4 ">
