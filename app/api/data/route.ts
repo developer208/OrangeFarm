@@ -1,10 +1,8 @@
-import { NextApiRequest, NextApiResponse } from "next";
 import jsonGenerator from "csvtojson";
-import { NextResponse } from "next/server";
+import { NextResponse, NextRequest } from "next/server";
 import path from "path";
-import fs from "fs";
 const filePath = path.join(process.cwd(), "public", "dataset.csv");
-export async function GET(request: NextApiRequest) {
+export async function GET(request: NextRequest) {
   try {
     let map = new Map();
     let arr = new Array();
