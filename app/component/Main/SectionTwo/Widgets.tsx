@@ -8,7 +8,7 @@ import { RevReport } from "../../icons/Main/SectionOne";
 export default function Widgets() {
   const [] = useState(true);
   return (
-    <main className="w-[556px] h-[400px] py-[24px]  bg-[#FFF] rounded-[16px] flex flex-col gap-[16px] items-start ">
+    <main className="2xl:w-[556px] w-full  h-[400px] py-[24px]  bg-[#FFF] rounded-[16px] flex flex-col gap-[16px] items-start ">
       <div className="h-[24px] px-[24px] flex justify-between items-center self-stretch ">
         <h1 className="text-[#131313] font-inter text-[20px] font-semibold leading-normal tracking-tight">
           Customers
@@ -20,7 +20,7 @@ export default function Widgets() {
           </div>
         </div>
       </div>
-      <div className="w-[556px] h-[279px] px-[8px] ">
+      <div className="2xl:w-[556px] w-full h-[279px] px-[8px] ">
         {SectionTwoData.map((item: items2) => {
           return (
             <main key={item.id}>

@@ -6,7 +6,7 @@ export default function Graph() {
   const [val, setVal] = useState("");
   return (
     <main>
-      <div className="w-[492px] h-[40px] pb-4 flex justify-between items-center self-stretch ">
+      <div className=" w-[85vw] sm:w-[492px]  h-[40px] pb-4 flex justify-between items-center self-stretch ">
         <h1 className="text-[#131313]  font-inter text-[20px] font-semibold tracking-[-0.2px] leading-normal">
           Growth
         </h1>
@@ -22,7 +22,7 @@ export default function Graph() {
           </select>
         </div>
       </div>
-      <div className="w-[492px] h-[160px] ">
+      <div className=" w-[80vw] sm:w-[492px] h-[160px] ">
         <Charts year={val} />
       </div>
     </main>

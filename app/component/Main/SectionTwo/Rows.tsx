@@ -3,12 +3,12 @@ import Graph from "./Graph";
 
 export default function Rows() {
   return (
-    <main className="w-[540px] h-[400px] flex flex-col items-start self-stretch gap-4 ">
-      <div className="w-[540px] h-[256px] flex flex-col items-start self-stretch p-[24px] gap-2 bg-[#FFF] rounded-[16px] ">
+    <main className="2xl:w-[540px] w-full h-[400px] flex flex-col items-start self-stretch gap-4 ">
+      <div className=" w-[90vw] sm:w-full h-[256px] flex flex-col items-start self-stretch p-[24px] gap-2 bg-[#FFF] rounded-[16px] ">
         <Graph />
       </div>
-      <div className="w-[540px] h-[128px] flex items-start self-stretch gap-4 ">
-        <div className="w-[169.33px] h-[128px] p-4 flex flex-col items-start self-stretch rounded-[16px] gap-4 bg-[#FFF] ">
+      <div className="2xl:w-[540px] w-[540px]  sm:w-full  h-[128px] flex items-start self-stretch gap-4 ">
+        <div className="2xl:w-[169.33px] w-[33.33%]  h-[128px] p-4 flex flex-col items-start self-stretch rounded-[16px] gap-4 bg-[#FFF] ">
           <h1 className=" w-full text-[ #7D7D7D] font-Inter text-base font-semibold leading-normal tracking-[-0.5px] ">
             Top month
           </h1>
@@ -21,7 +21,7 @@ export default function Rows() {
             </h6>
           </div>
         </div>
-        <div className="w-[169.33px] h-[128px] p-4 flex flex-col items-start self-stretch rounded-[16px] bg-[#FFF] gap-4 ">
+        <div className="2xl:w-[169.33px] w-[33.33%]  h-[128px] p-4 flex flex-col items-start self-stretch rounded-[16px] bg-[#FFF] gap-4 ">
           <h1 className="w-full text-[ #7D7D7D] font-Inter text-base font-semibold leading-normal tracking-[-0.5px] ">
             Top year
           </h1>
@@ -34,7 +34,7 @@ export default function Rows() {
             </h6>
           </div>
         </div>
-        <div className="w-[169.33px] h-[128px] p-4 flex flex-col items-start self-stretch rounded-[16px] bg-[#FFF] gap-4 ">
+        <div className="2xl:w-[169.33px] w-[33.33%]  h-[128px] p-4 flex flex-col items-start self-stretch rounded-[16px] bg-[#FFF] gap-4 ">
           <h1 className="w-full text-[ #7D7D7D] font-Inter text-base font-semibold leading-normal tracking-[-0.5px] ">
             Top buyer
           </h1>

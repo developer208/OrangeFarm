@@ -2,7 +2,7 @@ import { Chats, ChatsArray } from "@/app/util/data";
 import Image from "next/image";
 export default function SubSectionOne() {
   return (
-    <main className=" h-[256px] w-[320px] flex flex-col items-start gap-2  self-stretch  p-[24px] bg-[#FFF] rounded-[16px] ">
+    <main className=" h-[256px] w-full sm:w-[50%] 2xl:w-[320px] flex flex-col items-start gap-2  self-stretch  p-[24px] bg-[#FFF] rounded-[16px] ">
       <div className="w-[272px] h-[65px] pb-[16px] gap-2 flex flex-col items-start self-stretch ">
         <h2 className="text-Black font-Inter text-[20px] font-semibold tracking-wide leading-normal">
           Chats

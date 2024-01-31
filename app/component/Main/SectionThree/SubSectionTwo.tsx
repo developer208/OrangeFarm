@@ -3,7 +3,7 @@ import { StateData, States } from "@/app/util/data";
 export const SubSectionTwo = () => {
   let w = 20;
   return (
-    <main className=" h-full w-[320px]  bg-[#FFF] flex flex-col items-start self-stretch p-[24px] rounded-[16px] gap-2 ">
+    <main className=" h-auto w-full sm:w-[50%] 2xl:w-[320px]   bg-[#FFF] flex flex-col items-start self-stretch p-[24px] rounded-[16px] gap-2 ">
       <div className="w-[272px] h-[40px] pb-4 flex flex-col self-stretch gap-2 ">
         <h2 className="text-[#131313] font-inter text-[20px] font-semibold tracking-[-0.2px] leading-normal">
           Top states

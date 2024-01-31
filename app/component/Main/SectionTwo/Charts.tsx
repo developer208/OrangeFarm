@@ -49,8 +49,8 @@ export default function Charts(props: Props) {
   return (
     <ResponsiveContainer width="100%" height="100%">
       <AreaChart
-        width={500}
-        height={400}
+        // width={500}
+        // height={400}
         data={displayData.length === 0 ? chartData : displayData}
         margin={{
           top: 10,

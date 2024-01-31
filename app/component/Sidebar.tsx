@@ -12,7 +12,7 @@ import Logo from "./Logo";
 
 export default function Sidebar() {
   return (
-    <main className="  min-w-[280px] max-w-[320px] bg-[#FFF] h-[890px] rounded-[16px] hidden  sm:flex sm:flex-col">
+    <main className="  min-w-[280px] max-w-[320px] bg-[#FFF] h-[890px] rounded-[16px] hidden  lg:flex lg:flex-col">
       <div className="w-full h-[68px] flex flex-col justify-center items-start gap-[8px] self-stretch pt-[16px] px-[24px] pb-[12px]  ">
         <Logo />
       </div>
