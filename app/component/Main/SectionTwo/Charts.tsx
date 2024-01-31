@@ -22,7 +22,7 @@ export default function Charts(props: Props) {
   const [chartData, setChartData] = useState([]);
   const [displayData, setDisplayData] = useState([]);
   async function getData() {
-    const res = await fetch("http://localhost:3000/api/data");
+    const res = await fetch("/api/data");
     const data = await res.json();
     setChartData(data.data);
   }
